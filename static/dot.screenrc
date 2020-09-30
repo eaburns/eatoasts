@@ -1,0 +1,2 @@
+caption always "%H|%-w<%n %t>%+w %=%c"
+startup_message off

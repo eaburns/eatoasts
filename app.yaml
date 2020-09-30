@@ -1,0 +1,21 @@
+application: eatoasts
+version: 1
+runtime: go
+api_version: go1
+
+handlers:
+- url: /css
+  static_dir: css
+- url: /papers
+  static_dir: papers
+- url: /slides
+  static_dir: slides
+- url: /img
+  static_dir: img
+- url: /archives
+  static_dir: archives
+- url: /static
+  static_dir: static
+- url: /
+  script: _go_app
+
